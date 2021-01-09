@@ -1,5 +1,4 @@
-# single-price-grid-component
-Frontend mentor - Single price grid component
+# Frontend Mentor - Single price grid component
 
 ## Getting Started with Create React App
 
