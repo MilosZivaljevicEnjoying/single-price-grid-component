@@ -12,3 +12,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: rgb(230, 238, 245);
 }
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 30px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+input[type="button"] {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  background: rgb(192, 223, 51);
+  border: 0;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+input[type="button"]:hover {
+  cursor: pointer;
+  background: rgb(180, 213, 33);
+}
