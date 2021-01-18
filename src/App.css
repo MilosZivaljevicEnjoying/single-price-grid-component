@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center; /* adjusted */
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  width: 44%;
+  max-width: 635px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.15);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content > div {
+  cursor: context-menu;
+}
+
+/*.content > div:hover {
+  opacity: 0.75;
+}*/
+
+.community {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: rgb(255, 255, 255);
+  color: rgb(154, 167, 190);
+  font-size: 16px;
+  padding: 38px 40px 45px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.community > div {
+  line-height: 1.7;
+}
+
+.community h1 {
+  color: rgb(42, 179, 177);
+}
+
+.community h2 {
+  color: rgb(192, 223, 51);
+}
+
+.subscription, .whyUs{
+  padding: 40px 40px 40px;
+  color: rgb(255, 255, 255);
+}
+
+.subscription {
+  background: rgb(42, 179, 177);
+  border-bottom-left-radius: 5px;
+}
+
+.subscription h2 {
+  margin: 0 0 20px;
+}
+
+.whyUs h2 {
+  margin: 0 0 16px;
+}
+
+.subscription sup {
+  font-size:16px;
+  opacity: 0.75;
+}
+
+.subscription input[type="button"] {
+  width: 100%;
+}
+
+.priceContainer {
+  margin-bottom: 35px;
+}
+
+.price {
+  font-size: 32px;
+}
+
+.priceContainer .priceDescription {
+  font-size: 15px;
+}
+
+.whyUs {
+  background: rgb(75, 191, 188);
+  font-size: 14px;
+  border-bottom-right-radius: 5px;
+}
+
+.whyUs ul {
+  color: rgba(255, 255, 255, 0.75);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
 }
