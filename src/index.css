@@ -15,22 +15,23 @@ body {
 
 h1 {
   font-size: 24px;
-  margin: 0 0 30px;
+  margin: 0 0 25px;
 }
 
 h2 {
   font-size: 18px;
-  margin: 0 0 20px;
+  margin: 0 0 8px;
 }
 
 input[type="button"] {
   font-size: 16px;
   font-weight: bold;
-  padding: 15px;
+  padding: 20px 20px 15px;
   background: rgb(192, 223, 51);
   border: 0;
   border-radius: 5px;
   color: rgb(255, 255, 255);
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1);;
 }
 
 input[type="button"]:hover {

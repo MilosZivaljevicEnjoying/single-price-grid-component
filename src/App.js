@@ -7,14 +7,14 @@ function App() {
               <div className='community'>
                   <h1>Join our community</h1>
                   <h2>30-day, hassle-free money back guarantee</h2>
-                  <div>Gain access to our full library of tutorials along with expert code reviews.</div>
-                  <div>Perfect for any developers who are serious about honing their skills.</div>
+                  <div>Gain access to our full library of tutorials along with expert code reviews.
+                      Perfect for any developers who are serious about honing their skills.</div>
               </div>
               <div className='subscription'>
                   <h2>Monthly Subscription</h2>
                   <div className='priceContainer'>
                       <span className='price'>&#36;29 <sup>per month</sup></span>
-                      <div>Full access for less than $1 a day</div>
+                      <div className='priceDescription'>Full access for less than $1 a day</div>
                   </div>
                   <input type='button' value='Sign Up' />
               </div>
