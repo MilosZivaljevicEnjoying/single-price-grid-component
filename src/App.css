@@ -1,3 +1,7 @@
+*, *:focus, *:hover {
+  outline:none;
+}
+
 .wrapper {
   height: 100%;
   display: grid;
