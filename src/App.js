@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-      <div className='grid'>
+      <div className='wrapper'>
           <div className='content'>
               <div className='community'>
                   <h1>Join our community</h1>

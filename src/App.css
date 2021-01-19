@@ -1,12 +1,10 @@
-.grid {
+.wrapper {
+  height: 100%;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100vh;
-  align-items: center;
-  justify-items: center; /* adjusted */
 }
 
 .content {
+  margin: auto;
   width: 44%;
   max-width: 635px;
   display: grid;
