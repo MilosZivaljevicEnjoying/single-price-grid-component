@@ -5,23 +5,18 @@
 
 .content {
   margin: auto;
-  width: 44%;
   max-width: 635px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   font-size: 16px;
   border: 0;
   border-radius: 5px;
   box-shadow: 0 15px 30px 0 rgba(0,0,0,0.15);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .content > div {
   cursor: context-menu;
 }
-
-/*.content > div:hover {
-  opacity: 0.75;
-}*/
 
 .community {
   grid-column-start: 1;
@@ -60,13 +55,13 @@
   margin: 0 0 20px;
 }
 
-.whyUs h2 {
-  margin: 0 0 16px;
-}
-
 .subscription sup {
   font-size:16px;
   opacity: 0.75;
+}
+
+.whyUs h2 {
+  margin: 0 0 16px;
 }
 
 .subscription input[type="button"] {
@@ -97,4 +92,50 @@
   padding: 0;
   margin: 0;
   line-height: 1.4;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    margin: 72px 8.5% 62px;
+  }
+
+  .content {
+    display: initial;
+  }
+
+  .community {
+    font-size: 14px;
+    padding: 27px 26px 40px;
+  }
+
+  .community h1 {
+    font-size: 20px;
+  }
+
+  .community h2 {
+    font-size: 15px;
+    margin: 0 0 16px;
+  }
+
+  .subscription {
+    padding: 30px 26px 24px;
+    border-bottom-left-radius: 0;
+  }
+
+  .subscription h2 {
+    font-size: 18px;
+  }
+
+  .whyUs {
+    padding: 30px 26px 26px;
+    border-bottom-left-radius: 5px;
+  }
+
 }
