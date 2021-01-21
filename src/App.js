@@ -18,7 +18,7 @@ function App() {
                   </div>
                   <input type='button' value='Sign Up' />
               </div>
-              <div className='whyUs'>
+              <div className='aboutUs'>
                   <h2>Why Us</h2>
                   <ul>
                       <li>Tutorials by industry experts</li>

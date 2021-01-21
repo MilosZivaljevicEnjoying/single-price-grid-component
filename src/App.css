@@ -27,7 +27,6 @@
   grid-column-end: 3;
   background: rgb(255, 255, 255);
   color: rgb(154, 167, 190);
-  font-size: 16px;
   padding: 38px 40px 45px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -45,7 +44,7 @@
   color: rgb(192, 223, 51);
 }
 
-.subscription, .whyUs{
+.subscription, .aboutUs{
   padding: 40px 40px 40px;
   color: rgb(255, 255, 255);
 }
@@ -59,19 +58,6 @@
   margin: 0 0 20px;
 }
 
-.subscription sup {
-  font-size:16px;
-  opacity: 0.75;
-}
-
-.whyUs h2 {
-  margin: 0 0 16px;
-}
-
-.subscription input[type="button"] {
-  width: 100%;
-}
-
 .priceContainer {
   margin-bottom: 35px;
 }
@@ -80,17 +66,30 @@
   font-size: 32px;
 }
 
+.price sup {
+  font-size:16px;
+  opacity: 0.75;
+}
+
 .priceContainer .priceDescription {
   font-size: 15px;
 }
 
-.whyUs {
+.subscription input[type="button"] {
+  width: 100%;
+}
+
+.aboutUs {
   background: rgb(75, 191, 188);
   font-size: 14px;
   border-bottom-right-radius: 5px;
 }
 
-.whyUs ul {
+.aboutUs h2 {
+  margin: 0 0 16px;
+}
+
+.aboutUs ul {
   color: rgba(255, 255, 255, 0.75);
   list-style-type: none;
   padding: 0;
@@ -137,9 +136,8 @@
     font-size: 18px;
   }
 
-  .whyUs {
+  .aboutUs {
     padding: 30px 26px 26px;
     border-bottom-left-radius: 5px;
   }
-
 }
