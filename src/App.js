@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-      <div className='grid'>
+      <div className='wrapper'>
           <div className='content'>
               <div className='community'>
                   <h1>Join our community</h1>
@@ -18,7 +18,7 @@ function App() {
                   </div>
                   <input type='button' value='Sign Up' />
               </div>
-              <div className='whyUs'>
+              <div className='aboutUs'>
                   <h2>Why Us</h2>
                   <ul>
                       <li>Tutorials by industry experts</li>
